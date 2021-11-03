@@ -1,10 +1,12 @@
 
+// onLoad() run loading bar
 $(document).on('readystatechange', function () {
     var url = window.location.href.url;
     if (document.readyState == "interactive") {
 
         var all = document.getElementsByTagName("*");
-        document.getElementById("loading_width").value = 0;
+        // sets loading bar initizial to 0%
+        document.getElementById("loading_width").value = 0; // Ist das ein BugFix oder kann das weg?
   
         var scale = 1;
         if (document.getElementById("startpage") == null){
