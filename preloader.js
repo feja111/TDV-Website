@@ -8,9 +8,13 @@ $(document).on('readystatechange', function () {
         // sets loading bar initizial to 0%
         document.getElementById("loading_width").value = 0; // Ist das ein BugFix oder kann das weg?
   
-        var scale = 1;
-        if (document.getElementById("startpage") == null){
-            scale = 4;
+        var scale = 4;
+        // OLD document.getElementById("startpage") != null
+        if (isFirstVisit()){
+            // if you be on the startpage run a slower loading animation
+            scale = 1;
+            console.log("Hey, that's your first visit!!");
+            setVisited();
         }
 
         for (var i = 0, max = all.length; i < max; i++) {
@@ -129,4 +133,35 @@ function getCookie(name) {
 
 function eraseCookie(name) {
     document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+
+// Session Storage in Use
+
+// Check if user has already a entry in session storage...
+function isFirstVisit() {
+    var returns = getSessionStorageItem("visited");
+    if (returns == '1') {
+        return false;
+    }
+    return true;
+}
+
+// set entry in session storage...
+function setVisited() {
+    setSessionStorageItem("visited", '1');
+}
+
+// Session Storage
+
+function setSessionStorageItem(itemname, itemvalue) {
+    sessionStorage.setItem(itemname, itemvalue);
+} 
+
+function getSessionStorageItem(itemname) {
+    return sessionStorage.getItem(itemname);
+}
+
+function removeSessionStorageItem(itenname) {
+    sessionStorage.removeItem(itenname);
 }
