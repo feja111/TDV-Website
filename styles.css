@@ -1,0 +1,38 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 68, 68);
+}
+
+.discord-btn {
+    background-color: #ffffff; 
+    font-size: 15px;
+    color: #000000;
+}
+.discord-btn:hover {
+    background-color: #556cbe;
+}
+.discord-btn:focus {
+    background-color: #2d3e7a;
+}
+.shadow{
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.link{
+    text-decoration: underline; 
+    font-weight: bolder;
+}

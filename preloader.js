@@ -9,7 +9,6 @@ $(document).on('readystatechange', function () {
         document.getElementById("loading_width").value = 0; // Ist das ein BugFix oder kann das weg?
   
         var scale = 4;
-        // OLD document.getElementById("startpage") != null
         if (isFirstVisit()){
             // if you be on the startpage run a slower loading animation
             scale = 1;
