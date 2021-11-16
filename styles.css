@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Chalkboard';
+    src: url('fonts/ChalkboardSE-Light.ttf') format('truetype');;
+}
+@font-face {
+    font-family: 'MiliFont';
+    src: url('fonts/MiliFont.ttf') format('truetype');;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -28,6 +37,12 @@
 }
 .discord-btn:focus {
     background-color: #2d3e7a;
+}
+.fontMF{
+    font-family: 'MiliFont';
+}
+.fontCK{
+    font-family: 'Chalkboard';
 }
 .shadow{
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
