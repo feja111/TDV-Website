@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+    <channel>
+        <title>TDV Cast</title>
+        <description>Der Podcast zum Projekt Tanz der Vampire in Minecraft</description>
+        <language>de</language>
+
+        <image>
+            <title>TDV Logo</title>
+            <url>http://tdv.minecraftmusical.com/podcast/tdv.png</url>
+            <width>595</width>
+            <height>369</height>
+        </image>
+
+        <item>
+            <title>Wie alles begann ...</title>
+            <pubDate>Mo, 03 Jan 2021</pubDate>
+            <description>In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.</description>
+        </item>
+    </channel>
+</rss>
