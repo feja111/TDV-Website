@@ -18,9 +18,10 @@
     <item>
       <title>Wie alles begann ...</title>
       <pubDate>Wed, 5 Jan 2022 21:51:49 +0100</pubDate>
+      <dc:creator><![CDATA[tdv.minecraftmusical@gmail.com]]></dc:creator>
       <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</guid>
       <author>tdv.minecraftmusical@gmail.com</author>
-      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3" length="18744342" type="" />
+      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3" length="18744342" type="audio/mpeg" />
       <description><![CDATA[In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.]]></description>
     </item>
   </channel>
