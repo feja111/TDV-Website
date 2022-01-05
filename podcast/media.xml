@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
-<rss version="0.91">
-    <channel>
-        <title>TDV Cast</title>
-        <description>Der Podcast zum Projekt Tanz der Vampire in Minecraft</description>
-        <author>Tanz der Vampire in Minecraft: Militalex und Linphator</author>
-        <email>tdv.minecraftmusical@gmail.com</email>
-        <language>de</language>
-
-        <image>
-            <title>TDV Logo</title>
-            <url>http://tdv.minecraftmusical.com/podcast/tdv.png</url>
-            <width>595</width>
-            <height>369</height>
-        </image>
-
-        <item>
-            <title>Wie alles begann ...</title>
-            <link>http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</link>
-            <guid>tdv cast 001</guid>
-            <pubDate>Mo, 03 Jan 2021</pubDate>
-            <description>In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.</description>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>TDV Cast</title>
+    <link />
+    <description>Der Podcast zum Projekt Tanz der Vampire in Minecraft</description>
+    <language>de</language>
+    <managingEditor>Tanz der Vampire in Minecraft: Militalex und Linphator</managingEditor>
+    <image>
+      <title>TDV Cast</title>
+      <link />
+      <url>http://tdv.minecraftmusical.com/podcast/tdv.png</url>
+      <width>595</width>
+      <height>369</height>
+    </image>
+    <item>
+      <title>Wie alles begann ...</title>
+      <pubDate>Wed, 5 Jan 2022 21:27:49 GMT</pubDate>
+      <link>http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</link>
+      <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</guid>
+      <author>tdv.minecraftmusical@gmail.com</author>
+      <description><![CDATA[In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.]]></description>
+    </item>
+  </channel>
 </rss>
