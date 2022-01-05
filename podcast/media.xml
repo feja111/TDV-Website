@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
+     <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
     <generator>RSS Builder by B!Soft</generator>
     <title>TDV Cast</title>
     <link />
@@ -9,7 +10,8 @@
     <managingEditor>tdv.minecraftmusical@gmail.com</managingEditor>
     <webMaster>tdv.minecraftmusical@gmail.com</webMaster>
     <itunes:owner>
-    <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
+      <itunes:name>Tanz der Vampire in Minecraft</itunes:name>
+      <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
     </itunes:owner>
     <image>
       <title>TDV Cast</title>
