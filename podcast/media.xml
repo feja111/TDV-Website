@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-     <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
+    <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
     <generator>RSS Builder by B!Soft</generator>
     <title>TDV Cast</title>
     <link />
@@ -16,7 +16,7 @@
     <image>
       <title>TDV Cast</title>
       <link />
-      <url>http://tdv.minecraftmusical.com/podcast/tdv.png</url>
+      <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
       <width>595</width>
       <height>369</height>
     </image>
