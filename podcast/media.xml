@@ -6,18 +6,22 @@
     <title>TDV Cast</title>
     <description>Der Podcast zum Projekt "Tanz der Vampire in Minecraft"</description>
     <language>de</language>
-    <itunes:category text="Performing Arts" />
-    <itunes:category text="Video Games" />
-    <managingEditor>tdv.minecraftmusical@gmail.com {Tanz der Vampire in Minecraft}</managingEditor>
-    <webMaster>tdv.minecraftmusical@gmail.com {Tanz der Vampire in Minecraft}</webMaster>
+    <itunes:category text="Arts">
+      <itunes:category text="Performing Arts" />
+    </itunes:category>
+    <itunes:category text="Leisure">
+      <itunes:category text="Video Games" />
+    </itunes:category>
+    <managingEditor>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</managingEditor>
+    <webMaster>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</webMaster>
     <itunes:owner>
       <itunes:name>Tanz der Vampire in Minecraft</itunes:name>
       <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
     </itunes:owner>
-    <link />
+    <link "mailto:tdv.minecraftmusical@gmail.com" />
     <image>
       <title>TDV Cast</title>
-      <link />
+      <link "mailto:tdv.minecraftmusical@gmail.com" />
       <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
       <width>144</width>
       <height>144</height>
@@ -26,16 +30,16 @@
       <title>Wie alles begann ...</title>
       <pubDate>Wed, 5 Jan 2022 21:51:49 +0100</pubDate>
       <dc:creator><![CDATA[tdv.minecraftmusical@gmail.com]]></dc:creator>
-      <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</guid>
-      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3" length="18744342" type="audio/mpeg" />
+      <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv%20Cast%20001.mp3</guid>
+      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv%20Cast%20001.mp3" length="18744342" type="audio/mpeg" />
       <description><![CDATA[In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.]]></description>
     </item>
     <item>
       <title>Die Geburt des "Tanz der Vampire in Minecraft" Projekts</title>
       <pubDate>Sat, 22 Jan 2022 15:22:45 +0100</pubDate>
       <dc:creator><![CDATA[tdv.minecraftmusical@gmail.com]]></dc:creator>
-      <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 002.mp3</guid>
-      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 002.mp3" length="27769920" type="audio/mpeg" />
+      <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv%20Cast%20002.mp3</guid>
+      <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv%20Cast%20002.mp3" length="27769920" type="audio/mpeg" />
       <description><![CDATA[In dieser Folge sprechen wir über die Anfänge des "Tanz der Vampire in Minecraft" Projekts.]]></description>
     </item>
   </channel>
