@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="http://tdv.minecraftmusical.com/podcast/media.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
-    <generator>RSS Builder by B!Soft</generator>
     <title>TDV Cast</title>
     <description>Der Podcast zum Projekt "Tanz der Vampire in Minecraft"</description>
     <language>de</language>
-    <managingEditor>tdv.minecraftmusical@gmail.com</managingEditor>
-    <webMaster>tdv.minecraftmusical@gmail.com</webMaster>
+    <itunes:category text="Performing Arts" />
+    <itunes:category text="Video Games" />
+    <managingEditor>tdv.minecraftmusical@gmail.com {Tanz der Vampire in Minecraft}</managingEditor>
+    <webMaster>tdv.minecraftmusical@gmail.com {Tanz der Vampire in Minecraft}</webMaster>
     <itunes:owner>
       <itunes:name>Tanz der Vampire in Minecraft</itunes:name>
       <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
     </itunes:owner>
+    <link />
     <image>
       <title>TDV Cast</title>
+      <link />
       <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
-      <width>574</width>
-      <height>574</height>
+      <width>144</width>
+      <height>144</height>
     </image>
     <item>
       <title>Wie alles begann ...</title>
       <pubDate>Wed, 5 Jan 2022 21:51:49 +0100</pubDate>
       <dc:creator><![CDATA[tdv.minecraftmusical@gmail.com]]></dc:creator>
       <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3</guid>
-      <author>tdv.minecraftmusical@gmail.com</author>
       <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 001.mp3" length="18744342" type="audio/mpeg" />
       <description><![CDATA[In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.]]></description>
     </item>
@@ -32,7 +35,6 @@
       <pubDate>Sat, 22 Jan 2022 15:22:45 +0100</pubDate>
       <dc:creator><![CDATA[tdv.minecraftmusical@gmail.com]]></dc:creator>
       <guid isPermaLink="true">http://tdv.minecraftmusical.com/podcast/Tdv Cast 002.mp3</guid>
-      <author>tdv.minecraftmusical@gmail.com</author>
       <enclosure url="http://tdv.minecraftmusical.com/podcast/Tdv Cast 002.mp3" length="27769920" type="audio/mpeg" />
       <description><![CDATA[In dieser Folge sprechen wir über die Anfänge des "Tanz der Vampire in Minecraft" Projekts.]]></description>
     </item>
