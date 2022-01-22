@@ -4,8 +4,7 @@
     <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
     <generator>RSS Builder by B!Soft</generator>
     <title>TDV Cast</title>
-    <link />
-    <description>Der Podcast zum Projekt Tanz der Vampire in Minecraft</description>
+    <description>Der Podcast zum Projekt "Tanz der Vampire in Minecraft"</description>
     <language>de</language>
     <managingEditor>tdv.minecraftmusical@gmail.com</managingEditor>
     <webMaster>tdv.minecraftmusical@gmail.com</webMaster>
@@ -15,7 +14,6 @@
     </itunes:owner>
     <image>
       <title>TDV Cast</title>
-      <link />
       <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
       <width>574</width>
       <height>574</height>
