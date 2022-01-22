@@ -9,7 +9,7 @@
     <itunes:category text="Arts">
       <itunes:category text="Performing Arts" />
     </itunes:category>
-    <itunes:category text="Leisure">
+    <itunes:category text="Games &amp; Hobbies">
       <itunes:category text="Video Games" />
     </itunes:category>
     <managingEditor>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</managingEditor>
@@ -18,10 +18,10 @@
       <itunes:name>Tanz der Vampire in Minecraft</itunes:name>
       <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
     </itunes:owner>
-    <link "mailto:tdv.minecraftmusical@gmail.com" />
+    <link>mailto:tdv.minecraftmusical@gmail.com</link>
     <image>
       <title>TDV Cast</title>
-      <link "mailto:tdv.minecraftmusical@gmail.com" />
+      <link>mailto:tdv.minecraftmusical@gmail.com</link>
       <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
       <width>144</width>
       <height>144</height>
