@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <atom:link href="http://tdv.minecraftmusical.com/podcast/media.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tdv.minecraftmusical.com/assets/podcast/media.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Tanz der Vampire in Minecraft</itunes:author>
     <title>TDV Cast</title>
     <description>Der Podcast zum Projekt "Tanz der Vampire in Minecraft"</description>
@@ -10,7 +10,7 @@
       <itunes:category text="Performing Arts" />
     </itunes:category>
     <itunes:category text="Games &amp; Hobbies">
-      <itunes:category text="Video Games" />
+      <itunes:category text="Video Games"/>
     </itunes:category>
     <managingEditor>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</managingEditor>
     <webMaster>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</webMaster>
