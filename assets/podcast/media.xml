@@ -12,6 +12,9 @@
     <itunes:category text="Games &amp; Hobbies">
       <itunes:category text="Video Games"/>
     </itunes:category>
+    <itunes:explicit>
+      	false
+    </itunes:explicit>
     <managingEditor>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</managingEditor>
     <webMaster>tdv.minecraftmusical@gmail.com (Tanz der Vampire in Minecraft)</webMaster>
     <itunes:owner>
@@ -19,13 +22,13 @@
       <itunes:email>tdv.minecraftmusical@gmail.com</itunes:email>
     </itunes:owner>
     <link>mailto:tdv.minecraftmusical@gmail.com</link>
-    <image>
+    <itunes:image>
       <title>TDV Cast</title>
       <link>mailto:tdv.minecraftmusical@gmail.com</link>
-      <url>http://tdv.minecraftmusical.com/podcast/tdv.jpg</url>
+      <url>http://tdv.minecraftmusical.com/assets/podcast/tdv.jpg</url>
       <width>144</width>
       <height>144</height>
-    </image>
+    </itunes:image>
     <item>
       <title>Wie alles begann ...</title>
       <pubDate>Sat, 8 Jan 2022 13:00:00 +0100</pubDate>
