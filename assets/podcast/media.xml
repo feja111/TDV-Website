@@ -24,7 +24,7 @@
     <item>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>1</itunes:episode>
-      <itunes:title>Wie alles begann ...</itunes:title>
+      <title>Wie alles begann ...</title>
       <description>
           <![CDATA[In dieser Folge erfahrt ihr wie Linphator und Militalex sich kennen gelernt haben.]]>
       </description>
@@ -37,7 +37,7 @@
     <item>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>2</itunes:episode>
-      <itunes:title>Die Geburt des "Tanz der Vampire in Minecraft" Projekts</itunes:title>
+      <title>Die Geburt des "Tanz der Vampire in Minecraft" Projekts</title>
       <description>
           <![CDATA[In dieser Folge sprechen wir über die Anfänge des "Tanz der Vampire in Minecraft" Projekts.]]>
       </description>
@@ -50,7 +50,7 @@
     <item>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>3</itunes:episode>
-      <itunes:title>Die Theatermap mit Vinctilus</itunes:title>
+      <title>Die Theatermap mit Vinctilus</title>
       <description>
           <![CDATA[In dieser Folge sprechen wir über die Theatermap mit unserem Chef Builder Vinctilus.]]>
       </description>
