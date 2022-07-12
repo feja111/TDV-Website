@@ -1,65 +1,18 @@
 import { useState } from 'react';
 import { Parallax } from 'react-scroll-parallax';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
 import Layout from '../../components/Layout';
+import Title from '../../components/home/Title';
 
 export function HomePage() {
 	return (
 		<Layout>
 			<main>
-				<div className="relative">
-					<div className="absolute inset-x-0 bottom-0 h-1/2 bg-zinc-700" />
-					<div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-						<div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
-							<div className="absolute inset-0">
-								<img
-									className="h-full w-full object-cover blur-sm"
-									src="/images/th1.png?width=928&height=522"
-									alt="People working on laptops"
-								/>
-								<div className="absolute inset-0 bg-gradient-to-r from-red-800/40 to-red-700/40 mix-blend-multiply" />
-							</div>
-							<div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-								<h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-									<span className="block text-white">
-										Ein Musical in Minecraft
-									</span>
-								</h1>
-								<p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-									Das ultimative Theater Erlebnis jetzt auch
-									in Minecraft
-								</p>
-								<div className="mt-24 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-									<div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-										<a
-											href="#scroll-down"
-											className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-red-600 bg-white hover:bg-indigo-50 sm:px-8"
-										>
-											Mehr erfahren
-										</a>
-										<a
-											href="#"
-											className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#7289DA] bg-opacity-80 hover:bg-opacity-90 sm:px-8"
-										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												fill="currentColor"
-												className="w-5 h-5 mr-4"
-												viewBox="0 0 16 16"
-											>
-												<path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
-											</svg>
-											Discord
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="bg-zinc-700">
+				<Title />
+				<div id="scroll-down" />
+				{/*
+					Ankündigungen
+				*/}
+				{/* <div className="bg-zinc-700">
 					<div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
 						<p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
 							Ankündigungen
@@ -112,10 +65,13 @@ export function HomePage() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
-				{/* TODO: make a suitable solution */}
-				<div className="bg-zinc-700">
+				{/* 
+					Video
+					TODO: make a suitable solution 
+				*/}
+				{/* <div className="bg-zinc-700">
 					<div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
 						<p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
 							Video
@@ -130,7 +86,7 @@ export function HomePage() {
 							</video>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
 				<div className="bg-zinc-800">
 					<div className="relative pt-16 pb-24 overflow-hidden">
@@ -356,74 +312,74 @@ export function HomePage() {
 							/>
 						</div>
 					</div>
-					{/*
-      <div class="relative bg-red-900">
-          <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-              <div class="h-full w-full xl:grid xl:grid-cols-2">
-                  <div class="h-full xl:relative xl:col-start-2">
-                      <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                          src="https://github.com/MilitaerMilitz/TDV-Website/raw/master/textures/th2_.png"
-                          alt="People working on laptops">
-                      <div aria-hidden="true"
-                          class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-red-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r">
-                      </div>
-                      <div class="absolute w-full h-full flex">
-                          <div class="m-auto w-0 h-0 xl:h-auto xl:w-auto opacity-100 hover:opacity-25 duration-200">
-                              <img src="https://tdv.minecraftmusical.com/textures/TDV4.png" alt="TDV Logo" class="">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div
-              class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-              <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-                  <p class="mt-3 text-3xl font-extrabold text-white">
-                      Ein komplettes Musical, in Minecraft
-                  </p>
-                  <p class="mt-5 text-lg text-gray-300">Mehrere Stunden voller Spannung, Musik und Emotionen.
-                      Und das alles in dem Videospiel Minecraft. Es hat so viele Möglichkeiten und lässt Kreativen
-                      Köpfen freien lauf. Dieses Projekt wurde von vielen Menschen auf dei Beine gestellt, welche fast
-                      alle gerne mit Klötzchen spielen. <a href="team.html"
-                          style="text-decoration: underline; font-weight: bolder;">
-                          Sieh dir das Team an
-                      </a>
-                  </p>
-                  <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-                      <p>
-                          <span class="block text-2xl font-bold text-white">2.000+</span>
-                          <span class="mt-1 block text-base text-gray-300"><span
-                                  class="font-medium text-white">Commandblöcke</span> wurden bereits platziert.</span>
-                      </p>
-    
-                      <p>
-                          <span class="block text-2xl font-bold text-white">9.000+</span>
-                          <span class="mt-1 block text-base text-gray-300"><span
-                                  class="font-medium text-white">Notenblöcke</span> wurden insgesamt gestellt.</span>
-                      </p>
-    
-                      <p>
-                          <span class="block text-2xl font-bold text-white">86%</span>
-                          <span class="mt-1 block text-base text-gray-300"><span
-                                  class="font-medium text-white">Positive Rückmeldung</span>
-                                  von Spielern die das Stück gesehen haben.
-                              </span>
-                      </p>
-    
-                      <p>
-                          <span class="block text-2xl font-bold text-white">220+</span>
-                          <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Menschen</span>
-                              sind bereits unserer Community beigetreten.
-                              <a target="_blank" href="https://discord.gg/HM5AbccMzk" style="text-decoration: underline; font-weight: bolder;">
-                                  Sei auch einer davon.
-                              </a>
-                          </span>
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-    */}
+					
+					{/* <div class="relative bg-red-900">
+						<div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
+							<div class="h-full w-full xl:grid xl:grid-cols-2">
+								<div class="h-full xl:relative xl:col-start-2">
+									<img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
+										src="https://github.com/MilitaerMilitz/TDV-Website/raw/master/textures/th2_.png"
+										alt="People working on laptops"/>
+									<div aria-hidden="true"
+										class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-red-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r">
+									</div>
+									<div class="absolute w-full h-full flex">
+										<div class="m-auto w-0 h-0 xl:h-auto xl:w-auto opacity-100 hover:opacity-25 duration-200">
+											<img src="https://tdv.minecraftmusical.com/textures/TDV4.png" alt="TDV Logo" class=""/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+							<div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+								<p class="mt-3 text-3xl font-extrabold text-white">
+									Ein komplettes Musical, in Minecraft
+								</p>
+								<p class="mt-5 text-lg text-gray-300">Mehrere Stunden voller Spannung, Musik und Emotionen.
+									Und das alles in dem Videospiel Minecraft. Es hat so viele Möglichkeiten und lässt Kreativen
+									Köpfen freien lauf. Dieses Projekt wurde von vielen Menschen auf dei Beine gestellt, welche fast
+									alle gerne mit Klötzchen spielen. <a href="team.html"
+										style="text-decoration: underline; font-weight: bolder;">
+										Sieh dir das Team an
+									</a>
+								</p>
+								<div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
+									<p>
+										<span class="block text-2xl font-bold text-white">2.000+</span>
+										<span class="mt-1 block text-base text-gray-300"><span
+												class="font-medium text-white">Commandblöcke</span> wurden bereits platziert.</span>
+									</p>
+					
+									<p>
+										<span class="block text-2xl font-bold text-white">9.000+</span>
+										<span class="mt-1 block text-base text-gray-300"><span
+												class="font-medium text-white">Notenblöcke</span> wurden insgesamt gestellt.</span>
+									</p>
+					
+									<p>
+										<span class="block text-2xl font-bold text-white">86%</span>
+										<span class="mt-1 block text-base text-gray-300"><span
+												class="font-medium text-white">Positive Rückmeldung</span>
+												von Spielern die das Stück gesehen haben.
+											</span>
+									</p>
+					
+									<p>
+										<span class="block text-2xl font-bold text-white">220+</span>
+										<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Menschen</span>
+											sind bereits unserer Community beigetreten.
+											<a target="_blank" href="https://discord.gg/HM5AbccMzk" style="text-decoration: underline; font-weight: bolder;">
+												Sei auch einer davon.
+											</a>
+										</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					 */}
 				</div>
 			</main>
 		</Layout>

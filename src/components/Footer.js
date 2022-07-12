@@ -162,7 +162,7 @@ export default function Footer() {
 						</p>
 						<a
 							href="https://discord.gg/HM5AbccMzk"
-							className="mt-8 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#7289DA] bg-opacity-80 hover:bg-opacity-90 sm:px-8"
+							className="mt-8 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#5865F2] bg-opacity-80 hover:bg-opacity-90 sm:px-8"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +209,7 @@ export default function Footer() {
 						</a>
 					</div>
 					<p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-						© {new Date().getFullYear()} minecraftmusical.com (TDV
+						© {new Date().getFullYear()} tdv.minecraftmusical.com (TDV
 						in Minecraft) — Alle Rechte vorbehalten
 					</p>
 				</div>

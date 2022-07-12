@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 .custom-slider::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     background-color: transparent !important;
@@ -18,4 +23,64 @@
 }
 .custom-slider::-webkit-slider-thumb:hover {
     @apply bg-red-700;
+}
+
+.main-title {
+    animation-name: showMainTitle;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    opacity: 0;
+    line-height: 4rem;
+}
+
+@keyframes showMainTitle {
+    0% {
+        opacity: 0;
+        font-size: 3.5rem;
+    }
+    100% {
+        opacity: 1;
+        font-size: 3.75rem;
+    }
+}
+
+.subtitle {
+    animation-name: showSubtitle;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 4.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+    line-height: 1.75rem;
+}
+
+@keyframes showSubtitle {
+    0% {
+        opacity: 0;
+        font-size: 1rem;
+    }
+    100% {
+        opacity: 1;
+        font-size: 1.25rem;
+    }
+}
+
+.titlebuttons {
+    animation-name: showTitleButtons;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+@keyframes showTitleButtons {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
