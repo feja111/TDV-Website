@@ -13,3 +13,8 @@ Start: `npm run start`
 - [ ] Rote Ding bei Bildern offensichtlicher
 - [ ] Bilder gleich groß
 - [ ] Header Mobile Version Fix
+
+### Mili TODO
+- [ ] Animation Smoothes Ende ?
+- [ ] Logo nach Animation Ende
+- [ ] Ausklappen automatisch 
