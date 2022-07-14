@@ -7,10 +7,14 @@ export default function Title() {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                     <div className="absolute inset-0">
-                        <img
+                        <video
+                            autoPlay
+                            muted
                             className="h-full w-full object-cover blur-sm"
-                            src="/images/th1.png?width=928&height=522"
+                            src="/videos/home_background.webm"
                             alt="People working on laptops"
+                            width="928"
+                            height="522"
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-red-800/40 to-red-700/40 mix-blend-multiply" />
                     </div>
