@@ -16,9 +16,9 @@ export default function Title() {
                             width="928"
                             height="522"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-r from-red-800/40 to-red-700/40 mix-blend-multiply" />
                     </div>
-                    <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                    <div className="titlebackground" />
+                    <div className="px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                         <h1 className="text-center font-extrabold tracking-tight">
                             <span className="block text-white main-title">
                                 Ein Musical in Minecraft

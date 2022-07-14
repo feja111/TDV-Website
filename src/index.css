@@ -7,6 +7,10 @@ html {
     overflow-x: hidden;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .custom-slider::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     background-color: transparent !important;
@@ -29,7 +33,7 @@ html {
     animation-name: showMainTitle;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    animation-delay: 4s;
+    animation-delay: 6.5s;
     animation-fill-mode: both;
     opacity: 0;
     line-height: 4rem;
@@ -50,7 +54,7 @@ html {
     animation-name: showSubtitle;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    animation-delay: 4.5s;
+    animation-delay: 7s;
     animation-fill-mode: both;
     opacity: 0;
     line-height: 1.75rem;
@@ -71,7 +75,7 @@ html {
     animation-name: showTitleButtons;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
-    animation-delay: 6s;
+    animation-delay: 8s;
     animation-fill-mode: both;
     opacity: 0;
 }
@@ -82,5 +86,27 @@ html {
     }
     100% {
         opacity: 1;
+    }
+}
+
+.titlebackground {
+    animation-name: darkenBackground;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    background-color: rgb(39 39 42);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes darkenBackground {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.6;
     }
 }

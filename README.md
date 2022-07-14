@@ -6,9 +6,10 @@ Start: `npm run start`
 
 ### TODO
 - [X] Domain: tdv.minecraftmusical.com
-- [ ] GIF in Hintergrund + ohne rotstich
 - [X] Animation
 - [X] Ankündigungen raus
 - [X] Video raus
+- [ ] GIF in Hintergrund + ohne rotstich
 - [ ] Rote Ding bei Bildern offensichtlicher
 - [ ] Bilder gleich groß
+- [ ] Header Mobile Version Fix
