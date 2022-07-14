@@ -10,9 +10,8 @@ export default function Title() {
                         <video
                             autoPlay
                             muted
-                            className="h-full w-full object-cover blur-sm"
+                            className="h-full w-full object-cover blurry"
                             src="/videos/home_background.webm"
-                            alt="People working on laptops"
                             width="928"
                             height="522"
                         />
