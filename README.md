@@ -15,6 +15,6 @@ Start: `npm run start`
 - [ ] Header Mobile Version Fix
 
 ### Mili TODO
-- [ ] Animation Smoothes Ende ?
+- [x] Animation Smoothes Ende ?
 - [ ] Logo nach Animation Ende
 - [ ] Ausklappen automatisch 
